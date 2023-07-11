@@ -45,7 +45,7 @@ public class WhenWorkingWithStrings {
 
         int length = 0;
         // TODO: Find the number of characters in the string
-        lenght = bookTitle.length();
+        length = bookTitle.length();
 
         assertThat(length, equalTo(18));
     }
