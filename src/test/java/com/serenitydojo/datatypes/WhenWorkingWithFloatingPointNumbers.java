@@ -29,7 +29,7 @@ public class WhenWorkingWithFloatingPointNumbers {
     //
     @Test
     public void convertMetersToFeet() {
-        final int kilogramsToPounds = 2.20462;
+        final double kilogramsToPounds = 2.20462;
         int weightInKilograms = 50;
         double weightInPounds = 0;
 
