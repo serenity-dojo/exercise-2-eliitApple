@@ -23,7 +23,7 @@ public class WhenWorkingWithStrings {
     public void convertToUpperCase() {
         String bookTitle = "The Cat In The Hat";
 
-        String upperCaseTitle = "";
+        String upperCaseTitle = bookTitle.toUpperCase();
         // TODO: Convert the book title to upper case and assign it to the lowerCaseTitle variable
 
         assertThat(upperCaseTitle, equalTo("THE CAT IN THE HAT"));
